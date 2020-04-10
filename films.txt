@@ -1,0 +1,331 @@
+"A Boy and His God" 0 2 "Alan Sandoval" 1970
+"A Buddy Holly Past Life" 5 2 "Harvey Schwartz" 2005
+"A Failure of Probabilities" 2 6 "Ed Carter" 1998
+"A Feather From My Heart" 6 1 "Todd Alvarez" 1942
+"A Mensch in Time" 6 6 "Ken Lloyd" 1994
+"A Millipede Dreams of Christmas" 5 2 "Roger Curry" 1990
+"A Simple Moment" 1 8 "Denise Harvey" 1968
+"A Snail’s Face" 6 4 "Amos Willis" 1940
+"Abigail Force" 5 2 "Shawna Walker" 1973
+"Albuquerque Acquittal" 7 2 "Rose Delgado" 2003
+"Alice B. Toklas in Wonderland" 8 6 "Courtney Salazar" 2010
+"All Night Long" 0 6 "Wilma Miles" 2018
+"American Gobi" 7 1 "Carmen Alexander" 1970
+"Angryman" 8 7 "Reginald Tucker" 1985
+"Axe of God" 3 2 "Roger Curry" 1967
+"Azerbaijani Picnic" 2 4 "Todd Alvarez" 2003
+"Back To Eden" 5 6 "Geoffrey Mullins" 1988
+"Bad Faith" 8 2 "Wilma Miles" 1958
+"Balm" 4 4 "Mike Bell" 1964
+"Barn Spectacle" 2 8 "Roy Thompson" 1968
+"Be My Trotsky" 5 2 "Cecilia Sullivan" 2002
+"Beef Storm" 7 7 "Gilberto Dennis" 1975
+"Beyond the Surface" 1 4 "Kelley Stanley" 1950
+"Bible Belt" 7 4 "Susie Nichols" 1956
+"Biotica" 8 0 "Donnie Wilson" 2004
+"Black November" 8 3 "Doreen Dawson" 1985
+"Blind Fury" 5 5 "Betsy Weber" 2008
+"Blue Horizon" 2 5 "Oscar Greene" 1996
+"Blurred Horizons" 0 2 "Dale Allison" 1970
+"Born Apart" 6 4 "Andre Simmons" 1967
+"Bristol Diamond" 7 5 "Emmett Schultz" 1992
+"Broadway Sanguine" 0 7 "Terence Watson" 2004
+"Broadway Trotsky" 0 7 "Blake Riley" 1942
+"Broken Together" 3 7 "Jessie Franklin" 1952
+"Brunchilli Sunrise" 8 0 "Gilberto Dennis" 1972
+"Cannery Row" 5 3 "Christopher Daniels" 1978
+"Carver’s Cut" 5 2 "Beth Dixon" 1967
+"Cathode Mary" 1 4 "Emmett Schultz" 1960
+"Chaucer’s Choice" 5 1 "Blake Riley" 1949
+"Cherry Asphalt" 8 8 "Rose Delgado" 1972
+"Children of the Sun" 3 7 "Todd Alvarez" 1941
+"Clockwatchers" 6 0 "Kristi Sherman" 1980
+"Cold Tortelini" 3 5 "Evelyn Vaughn" 1979
+"Confetti Underground" 0 1 "Betsy Weber" 1991
+"Conned, Some Are Confidants" 8 6 "Cathy Burke" 1968
+"Constance Paine" 1 2 "Marguerite Carr" 1943
+"Conundrum" 0 8 "Sherman Hubbard" 1990
+"Coriander Puppy" 0 8 "Reginald Tucker" 2012
+"Cosgrave’s Problem" 7 4 "Beth Dixon" 2008
+"Counter Coy" 8 8 "Denise Harvey" 1946
+"Crackerhead" 6 2 "Traci Haynes" 1957
+"Dangerous Libations" 3 5 "Tanya Barber" 1985
+"Dare Demeanor" 3 1 "Kelley Stanley" 1997
+"Darwinter of my Discontent" 1 1 "Wilma Miles" 1978
+"Daughter of Fire" 7 5 "Emmett Schultz" 2011
+"Days of Promise, Days of Hope" 2 7 "Tara Fields" 1990
+"Dead Rockers" 1 5 "Kathleen Pierce" 1987
+"Depriving Jessica" 6 6 "Elizabeth Chambers" 1985
+"Devastating the Obvious" 4 3 "Corey Mason" 1978
+"Disorder in the Court" 1 7 "Marc Mendoza" 1996
+"Dr. Truly" 7 0 "Guy Brady" 1970
+"DreamTown" 6 1 "Evelyn Vaughn" 1960
+"Drifting Off" 1 2 "Roosevelt Ward" 2008
+"Drowned" 8 8 "Todd Alvarez" 1982
+"Dusty Saddles" 4 2 "Reginald Tucker" 1979
+"EARTHHELP.COM" 4 0 "Geneva Newman" 1991
+"Elsie’s Plumbago" 0 3 "Cory Warren" 2001
+"Elvis Othello" 4 3 "Erick Bowen" 1997
+"Enrondezvous" 7 3 "Audrey Bryant" 1998
+"Evidentiary Material" 7 6 "Pearl Kelley" 1971
+"Excuse for Homicide" 5 7 "Geoffrey Mullins" 1978
+"Exhibit A" 0 6 "Tanya Barber" 2003
+"Exoville" 2 4 "Corey Mason" 1962
+"Fair Weather Father" 1 8 "Marguerite Carr" 1998
+"False Witness" 6 6 "Cory Warren" 2015
+"Father Earth" 1 3 "Laura Garcia" 1952
+"Faustus Frieze" 1 0 "Albert Webb" 1973
+"First Faith" 4 8 "Emmett Schultz" 1967
+"First Snow" 2 0 "Charlene Lyons" 1960
+"Fish Dreaming" 6 3 "Tara Fields" 1975
+"Flesh Sisters" 0 1 "Kelley Stanley" 1955
+"Flowers for Algernon II" 8 5 "Della Ingram" 1947
+"Folding the River" 2 6 "Johnny Gonzales" 1968
+"For the Benefit of Joseph K" 7 1 "Blake Riley" 2017
+"Forever Gone" 6 6 "Bertha Olson" 2017
+"Fraternal Instincts" 3 4 "Delbert Young" 1958
+"Free Leon" 4 7 "Wilma Miles" 2008
+"Freedom From Fear" 5 2 "Doreen Dawson" 1960
+"Gandhi With The Wind" 2 4 "Tara Fields" 1952
+"Genius Christ" 6 0 "Oscar Greene" 2003
+"God’s Hometown" 5 7 "Mercedes Washington" 1962
+"Graphic Evidence" 6 3 "Ann Pope" 1995
+"Greaseland" 8 2 "Cathy Burke" 2000
+"Grounded In Time" 6 0 "Marguerite Carr" 1982
+"Gumby on a Hot Tin Roof" 1 7 "William Cunningham" 1963
+"Gumby Sleeps with Fishes" 1 8 "Gilberto Dennis" 1946
+"Gumby’s Choice" 1 7 "Victoria Mckenzie" 2001
+"Gumby’s Last Dance" 6 8 "Shawna Walker" 1986
+"Gumby’s Mandolin" 3 3 "Christopher Daniels" 1951
+"Guru Smile" 1 6 "Roy Thompson" 1996
+"Gwenevere Experience" 3 6 "Kristi Sherman" 1998
+"Half Full" 8 3 "Erick Bowen" 1968
+"Hangin’ Tree" 0 4 "Terence Watson" 1957
+"Happy in Spite of Myself" 4 3 "Shaun Keller" 1992
+"Having Eddie’s Baby" 3 7 "Marguerite Carr" 1972
+"Hester Pure" 2 5 "Francis Rodriguez" 1995
+"Holly’s Holding Together" 6 1 "Ed Carter" 1975
+"How’s About Ned" 7 8 "Beth Dixon" 2016
+"Hype’s Sorrow" 4 3 "Tyrone Osborne" 2001
+"Jack Addict" 3 1 "Audrey Bryant" 2011
+"Jackie Diamonds" 2 5 "Beth Dixon" 1980
+"Jackson Vile" 7 7 "Albert Webb" 1975
+"Jawing The Moon" 4 5 "Shawn Lawson" 2009
+"Jaws of Life" 6 5 "Shawn Lawson" 1950
+"Jigging Sinatra" 7 1 "Mercedes Washington" 2002
+"Joan of Arkansas" 0 4 "Shawna Walker" 1954
+"Jocks and Mobsters" 0 0 "Geneva Newman" 1976
+"Johnny Law" 3 0 "Guy Brady" 1955
+"Johnny Nobody" 7 0 "Christopher Daniels" 2016
+"Kaiserian Sanction" 2 4 "Erika Huff" 2015
+"Keister’s Kiss" 1 4 "Sherman Hubbard" 1991
+"Lack of Planet" 0 1 "Kathleen Pierce" 1999
+"Landmark of My Youth" 1 2 "Susie Nichols" 1994
+"Lap Tiger" 7 4 "Mercedes Washington" 1961
+"Lars Makeshift" 7 2 "Victoria Mckenzie" 2015
+"Last Light" 3 5 "Marvin Weaver" 1982
+"Leather Roads" 3 4 "Alan Sandoval" 1997
+"Left Turgenev" 4 6 "Rufus Ballard" 1957
+"Lisa’s Kimono" 5 0 "Jermaine Bennett" 2006
+"Living Trust" 6 7 "Rose Delgado" 1992
+"Lone Licorice" 1 2 "Ed Carter" 1991
+"Love Canal Story" 3 4 "Courtney Salazar" 1993
+"Lovebox Hotel" 8 5 "Juan Roy" 2001
+"Lynne’s First Cramp" 7 3 "Shawna Walker" 2008
+"Mazzy" 0 3 "Maurice Potter" 1977
+"Me First Cafe" 2 5 "Shawn Lawson" 1961
+"Merry Bilgewater" 8 4 "Carmen Alexander" 1974
+"Miles and Flora" 4 0 "Andre Simmons" 1985
+"Milk the Porcupine" 4 7 "Charlene Lyons" 1983
+"Milky Feeling" 3 2 "Cynthia Ortiz" 1943
+"Mining the Zone" 0 1 "Shawna Walker" 2018
+"Mirror Mirror" 6 4 "Erika Huff" 1997
+"Missed Call" 8 1 "Cecilia Sullivan" 1946
+"Moments In Time" 1 5 "Hector Lucas" 1944
+"Mommy Coke" 6 6 "Andre Simmons" 1976
+"Monkey Double" 4 4 "Todd Alvarez" 1994
+"Moon Over Nowhere" 3 0 "Kara Newton" 1992
+"Mrs. Richard Ramirez Goes to Washington" 4 3 "Denise Harvey" 1950
+"Mudrick Forest" 5 2 "Dana Rose" 2015
+"Mustang Uprising" 2 3 "Dale Allison" 2017
+"My Croatian Tan" 7 1 "Beth Dixon" 2014
+"My Glass Eye" 6 6 "Rufus Ballard" 1965
+"Naked Apathetic" 0 8 "Evelyn Vaughn" 2010
+"No More Misery" 8 8 "Rufus Ballard" 1953
+"November in Napa" 2 8 "Betsy Weber" 1982
+"Off the Record" 2 1 "Reginald Tucker" 1968
+"On the Stand" 5 8 "Courtney Salazar" 2000
+"One Foot Out the Door" 7 2 "Carmen Alexander" 1960
+"One Thousand Tears" 6 7 "Terence Watson" 2015
+"Open the Kimono" 7 1 "Terence Watson" 1948
+"Ordinary Nipple" 0 1 "Kara Newton" 1959
+"Outer Monrovia" 5 6 "Ernest Norton" 1992
+"Paloma the Ruffian" 0 1 "Francis Rodriguez" 1964
+"Pandea in Gondwanaland" 7 4 "Erika Huff" 1993
+"Pandora’s Boxing" 4 2 "Christopher Daniels" 2007
+"Passages of Time" 2 7 "Emmett Schultz" 1982
+"Paved Curtain" 0 3 "Elizabeth Chambers" 1986
+"Peanut Gallery Next Exit" 5 6 "Evelyn Vaughn" 2016
+"Petter" 0 8 "Homer Richardson" 2020
+"Phobia" 2 0 "Erika Huff" 1979
+"Pigeon Wednesday" 6 3 "Sherman Hubbard" 2014
+"Pike’s Puke" 1 8 "Delbert Young" 2008
+"Pork Promises" 0 6 "Corey Mason" 1946
+"Prawn Crisis" 0 2 "Christopher Daniels" 2005
+"Prawn Song" 6 8 "Alan Sandoval" 1944
+"Primarily Susan" 1 6 "Andre Simmons" 1980
+"Princess Prawn" 5 7 "Corey Mason" 2008
+"Purdahtory" 3 3 "Sherman Hubbard" 1959
+"Purple Letters" 7 3 "Victoria Mckenzie" 2006
+"Queen Martyr" 6 6 "Kelley Stanley" 1972
+"Question Quest" 7 7 "Nicolas Stevenson" 2006
+"Rain Monkey" 8 1 "Courtney Salazar" 1946
+"Rainy Days" 7 8 "Charlene Lyons" 1955
+"Realm of the Woods" 2 5 "Homer Richardson" 1952
+"Resentment" 8 1 "Roger Curry" 1966
+"Restored to Dignity" 8 8 "Geoffrey Mullins" 1988
+"Revering Paula" 0 7 "Gayle Ross" 1989
+"Ringer" 0 7 "Cory Warren" 1971
+"Rippers" 6 6 "Steven Garza" 2020
+"Ripple Effect" 3 5 "Wilma Miles" 1963
+"Road Worrier" 3 5 "Rufus Ballard" 1998
+"Rodeo Days" 0 0 "Marguerite Carr" 1959
+"Rodeo Stories" 8 3 "Sherman Hubbard" 1952
+"Royal Spell" 2 8 "Christopher Daniels" 2013
+"Rude, A Walking Ham" 5 4 "Brett Herrera" 1967
+"Rumpuddle Flounder" 5 0 "Dana Rose" 1999
+"Running On Ice" 3 1 "Francis Rodriguez" 1962
+"San Onofre Fallout" 6 4 "Victoria Mckenzie" 1959
+"Santana Winds" 7 3 "Ann Pope" 1953
+"Saturday in Bolivia" 6 5 "Roosevelt Ward" 1953
+"Saturday Night Ferver" 7 2 "Beth Dixon" 1950
+"SeaMountain" 0 1 "Cecilia Sullivan" 1940
+"Seize the Biscuit" 4 2 "Victoria Mckenzie" 1968
+"Sent to Finland" 2 5 "Sophie Moody" 1942
+"Shadow of Sunlight" 0 3 "Shawna Walker" 1973
+"Sicilian Mud Puppet" 8 7 "Tara Fields" 1964
+"Sick of Turtles" 3 4 "Cathy Burke" 1953
+"Sister Borneo" 5 8 "Maurice Potter" 1947
+"Sister Zilla" 4 6 "Rose Delgado" 2017
+"Six Angry Jockies" 3 8 "Charlene Lyons" 2006
+"Sky Theory" 2 8 "Doreen Dawson" 1951
+"Sleepless in Saskatchewan" 7 4 "Tanya Barber" 1959
+"Slope" 0 0 "Harvey Schwartz" 1993
+"Smiles Apart" 4 3 "Tyrone Osborne" 2000
+"Soma Nights" 0 7 "Victoria Mckenzie" 1950
+"Soul Cancer" 6 7 "Tyrone Osborne" 1988
+"Soul Sketch" 0 6 "Herman Klein" 1952
+"Sour Fates" 8 6 "Kristi Sherman" 1984
+"Sour Glass" 5 4 "Rose Delgado" 2018
+"Spider Sense" 3 3 "Cecilia Sullivan" 1986
+"Splinter Kiss" 0 1 "Laura Garcia" 2000
+"St. Peter’s Bird" 0 4 "Herman Klein" 1986
+"Star Daughters" 8 1 "Reginald Tucker" 1990
+"Streetsmacker" 0 7 "Johnny Gonzales" 1971
+"Summer of Prawns" 4 8 "Geoffrey Mullins" 1996
+"Summer of Sickness" 6 8 "Greg Perkins" 1978
+"Summer of the Shark" 8 7 "Traci Haynes" 1969
+"Swap Keats" 7 5 "Mercedes Washington" 1989
+"Sweet Lies" 8 7 "Betsy Weber" 1968
+"Sweet Rainbow" 1 5 "Marvin Weaver" 1958
+"Swimming in Silence" 5 1 "Emmett Schultz" 2009
+"Tanzar" 5 3 "Martin Becker" 1999
+"Tender Ties" 7 2 "Ann Pope" 1990
+"Tenderly, Edward" 7 0 "Marvin Weaver" 1989
+"Tennyson Alley" 1 4 "Kristi Sherman" 1943
+"Tennyson Woodbridge" 4 7 "Beth Dixon" 1959
+"Terra Trona" 2 5 "Albert Webb" 1970
+"The 4AM Club" 1 8 "Shaun Keller" 1957
+"The Agenda" 6 1 "Maurice Potter" 1987
+"The Avenging Art Angel" 1 2 "Donnie Wilson" 1965
+"The Blinder" 0 7 "Marvin Weaver" 1974
+"The Caffeine Problem" 3 8 "Erick Bowen" 1950
+"The Centre of the World" 1 1 "Donnie Wilson" 2008
+"The Contender" 6 7 "Don George" 1952
+"The Cudahy Witness" 3 7 "Traci Haynes" 1944
+"The Days of Zero" 0 1 "Gilberto Dennis" 1955
+"The Dissident" 4 3 "Ryan Valdez" 1989
+"The Edge of A Midsummers Night’s Dream" 4 2 "Charlene Lyons" 1963
+"The Endless Mirror" 8 8 "Brett Herrera" 1979
+"The False Front" 1 0 "Courtney Salazar" 2013
+"The Fetus Wars" 2 6 "Roosevelt Ward" 1948
+"The Final Cabaña" 1 5 "Alan Sandoval" 1982
+"The Fire Storm Verdict" 1 8 "Terence Watson" 1977
+"The Frenchman’s Resolve" 4 5 "Cynthia Ortiz" 2004
+"The Gardena Miracle" 8 5 "Dana Rose" 1957
+"The Glaswegian Miracle" 7 4 "Terence Watson" 1989
+"The God Mixer" 8 1 "Kathleen Pierce" 2014
+"The Great Bovine Picnic" 8 8 "Erika Huff" 1941
+"The Great Plumbago" 8 7 "Martin Becker" 1965
+"The Hedonist" 4 1 "William Cunningham" 2003
+"The Hunger" 5 5 "Cynthia Ortiz" 1987
+"The Irvine Scenario" 3 1 "Kara Newton" 1967
+"The Khalua War" 5 2 "Audrey Bryant" 1997
+"The Laser’s Edge" 7 8 "Elizabeth Chambers" 1999
+"The Last Cabaña" 1 4 "Erick Bowen" 1944
+"The Last Today" 6 8 "Traci Haynes" 1945
+"The Lemonade Stand" 1 5 "Rufus Ballard" 1940
+"The Lowie Realm" 8 0 "Ann Pope" 2002
+"The Mandible Situation" 7 6 "Homer Richardson" 1975
+"The Mist on Dog Mountain" 2 0 "Amos Willis" 1948
+"The Modesto Effect" 3 5 "Tyrone Osborne" 1989
+"The Modoc Littany" 3 2 "Kelley Stanley" 1971
+"The Noose Around Zeus" 2 8 "Kelley Stanley" 1964
+"The Okapi Mandate" 8 3 "Gilberto Dennis" 2005
+"The One-Up" 7 7 "Amos Willis" 2007
+"The Parafin Directive" 5 7 "Betsy Weber" 1960
+"The Pharmaceuticals of Heaven" 1 1 "Tara Fields" 1981
+"The Philatelist Dances" 0 6 "Carmen Alexander" 1940
+"The Pied Sniper" 2 5 "Steven Garza" 2015
+"The Portuguese Wife" 3 8 "Ernest Norton" 2008
+"The Reflecting Pool" 7 7 "Gayle Ross" 1997
+"The Samarkand Witness" 6 4 "Ted Henderson" 1989
+"The Sanguine Five" 0 2 "Roger Curry" 1991
+"The Scent of Light" 8 7 "Shaun Keller" 1977
+"The Shadow Chasers" 2 0 "Marguerite Carr" 1990
+"The Sodium Podium" 6 5 "Tanya Barber" 1944
+"The Tearstained Papaya" 4 5 "Sherman Hubbard" 1941
+"The Tenacious Snail" 2 2 "Guy Brady" 1952
+"The Truth Turtles" 1 1 "Hector Lucas" 1967
+"The Turning" 8 0 "Ernest Norton" 1970
+"The Veracity of Slugs" 2 2 "Gayle Ross" 2010
+"The Winchester Sisters" 6 5 "Vernon Wright" 1983
+"The Wounded City" 2 4 "Beth Dixon" 2000
+"thePlans" 8 1 "Carmen Alexander" 2007
+"This Little Big" 5 5 "Martin Becker" 1972
+"Three Cheers for Chelsea" 0 8 "Kelley Stanley" 1953
+"Time Gone By" 1 3 "Christopher Daniels" 1956
+"Time of Day" 2 6 "Roger Curry" 1993
+"Tolstoy Hotel" 2 7 "Homer Richardson" 1944
+"Tornado Picnic" 5 2 "Tricia Saunders" 1950
+"Torsion Grab" 4 4 "Nicolas Stevenson" 1997
+"Truckee Love Poem" 5 1 "Mike Bell" 1976
+"Twisting Fate" 3 6 "Victoria Mckenzie" 1972
+"Two Birds" 7 8 "Nicolas Stevenson" 1977
+"Ultrasound of Music" 8 8 "Roman Dean" 1997
+"Unbridaled Amy" 3 6 "Ken Lloyd" 1966
+"Uncertain Wisdom" 4 8 "Guy Brady" 1991
+"Unchained Voices" 3 4 "Marvin Weaver" 1977
+"Uncoil and Float" 1 0 "Brett Herrera" 1964
+"Under the Boardroom" 5 6 "Albert Webb" 1996
+"Understanding Gerald" 4 0 "Susie Nichols" 1948
+"Undivided Highway" 1 8 "Alan Sandoval" 1987
+"Walking to Rwanda" 7 4 "Mercedes Washington" 2014
+"Walt Sing Sing" 3 7 "Laura Garcia" 2006
+"Waltzing with Eternity" 0 3 "Marvin Weaver" 1996
+"Wannabe Heights" 2 4 "Juan Roy" 1994
+"War Whore" 2 4 "Jessie Franklin" 1972
+"Water Monk" 1 5 "Linda Hill" 2012
+"Waterbaby" 0 4 "Erika Huff" 1997
+"Wax Nest" 8 8 "Cathy Burke" 2018
+"Wednesday Morning Picnic" 1 8 "Tricia Saunders" 1984
+"West Bank Story" 3 5 "Tanya Barber" 2016
+"Where have all the Flowers gone? – The Bill Clinton Story" 6 0 "Tara Fields" 1962
+"White Girl Jumping" 8 8 "Erika Huff" 1989
+"White Trash River" 7 2 "Ted Henderson" 1950
+"Wicked Bored" 3 5 "Blake Riley" 2013
+"Wig Work" 0 5 "Ryan Valdez" 2016
+"Wise Yankee" 3 0 "Emmett Schultz" 1945
+"Wretched Ex-cess" 6 6 "Evelyn Vaughn" 1959
+"Yankee on the Yangtze" 6 2 "Shaun Keller" 2007
+"Zilla’s Scents of Cheese" 7 4 "Juan Roy" 1991
