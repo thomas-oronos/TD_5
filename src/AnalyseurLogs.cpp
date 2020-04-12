@@ -54,3 +54,16 @@ bool AnalyseurLogs::chargerDepuisFichier(const std::string& nomFichier,
     std::cerr << "Erreur AnalyseurLogs: le fichier " << nomFichier << " n'a pas pu être ouvert\n";
     return false;
 }
+
+bool AnalyseurLogs::creerLigneLog(const std::string& timestamp, const std::string& idUtilisateur, const std::string& nomFilm,
+                       GestionnaireUtilisateurs& gestionnaireUtilisateurs, GestionnaireFilms& gestionnaireFilms)
+{
+    LigneLog ligneLog{timestamp, gestionnaireUtilisateurs.getUtilisateurParId(idUtilisateur), gestionnaireFilms.getFilmParNom(nomFilm)};
+    if(ligneLog.film == nullptr || ligneLog.utilisateur == nullptr)
+    {
+        return false;
+    }
+    ajouterLigneLog(ligneLog);
+
+    return std::find(logs_.begin(), logs_.end(), ligneLog) != logs_.end();
+}
