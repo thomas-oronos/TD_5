@@ -65,5 +65,62 @@ bool AnalyseurLogs::creerLigneLog(const std::string& timestamp, const std::strin
     }
     ajouterLigneLog(ligneLog);
 
-    return std::find(logs_.begin(), logs_.end(), ligneLog) != logs_.end();
+    return std::binary_search(logs_.begin(), logs_.end(), ligneLog, ComparateurLog());
 }
+
+void AnalyseurLogs::ajouterLigneLog(const LigneLog& ligneLog)
+{
+    auto position = std::lower_bound(logs_.begin(), logs_.end(), ligneLog, ComparateurLog());
+    logs_.emplace(position, ligneLog);
+    vuesFilms_[ligneLog.film]++;
+}
+
+int AnalyseurLogs::getNombreVuesFilm(const Film* film) const
+{
+    if(vuesFilms_.find(film) == vuesFilms_.end())
+    {
+        return 0;
+    }
+    return vuesFilms_.at(film);
+}
+
+const Film* AnalyseurLogs::getFilmPlusPopulaire() const
+{
+    if(logs_.size() == 0)
+    {
+        return nullptr;
+    }
+    return std::max_element(vuesFilms_.begin(), vuesFilms_.end(), ComparateurSecondElementPaire<const Film*, int>())->first;
+}
+
+std::vector<std::pair<const Film*, int>> AnalyseurLogs::getNFilmsPlusPopulaires(std::size_t nombre) const
+{
+    std::vector<std::pair<const Film*, int>>nFilmsPlusPopulaires(std::min(vuesFilms_.size(), nombre));
+    std::partial_sort_copy(vuesFilms_.begin(), vuesFilms_.end(), nFilmsPlusPopulaires.begin(), nFilmsPlusPopulaires.end(),
+        [](std::pair<const Film*, int>& film1, std::pair<const Film*, int>& film2) {return film1.second > film2.second;});
+    return nFilmsPlusPopulaires;
+}
+
+int AnalyseurLogs::getNombreVuesPourUtilisateur(const Utilisateur* utilisateur) const
+{
+    return std::count_if(logs_.begin(), logs_.end(), [&utilisateur](const LigneLog& ligneLog){return ligneLog.utilisateur == utilisateur;});
+}
+
+std::vector<const Film*> AnalyseurLogs::getFilmsVusParUtilisateur(const Utilisateur* utilisateur) const
+{
+    std::unordered_set<const Film*> filmsVus;
+    for (const LigneLog& i : logs_)
+    {
+        if(utilisateur == i.utilisateur)
+        {
+            filmsVus.insert(i.film);
+        }
+    }
+    // std::copy_if(logs_.begin(), logs_.end(), filmsVus,[&utilisateur](LigneLog& ligneLog){return ligneLog.utilisateur == utilisateur;};
+    std::vector<const Film*> films;
+    std::copy(filmsVus.begin(), filmsVus.end(), std::back_inserter(films));
+
+    return films;
+}
+
+

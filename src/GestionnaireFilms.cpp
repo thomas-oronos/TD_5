@@ -111,11 +111,10 @@ bool GestionnaireFilms::ajouterFilm(const Film& film)
 {
     if(getFilmParNom(film.nom) != nullptr)
         return false;
-    std::unique_ptr<Film> ptrFilm = std::make_unique<Film>(film);
-    films_.push_back(std::move(ptrFilm));
-    filtreNomFilms_.emplace(film.nom, ptrFilm.get());
-    filtreGenreFilms_[film.genre].push_back(ptrFilm.get());
-    filtrePaysFilms_[film.pays].push_back(ptrFilm.get());
+    films_.push_back(std::move(std::make_unique<Film>(film)));
+    filtreNomFilms_.emplace(film.nom, films_.back().get());
+    filtreGenreFilms_[film.genre].push_back(films_.back().get());
+    filtrePaysFilms_[film.pays].push_back(films_.back().get());
 
     return true; 
 }
@@ -134,6 +133,8 @@ bool GestionnaireFilms::supprimerFilm(const std::string& nomFilm)
     vecteurGenre.erase(std::remove(vecteurGenre.begin(), vecteurGenre.end(),trouve->get()), vecteurGenre.end());
 
     films_.erase(trouve);
+
+    return true;
 }
 
 std::size_t GestionnaireFilms::getNombreFilms() const
