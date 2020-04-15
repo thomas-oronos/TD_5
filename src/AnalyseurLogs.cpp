@@ -40,7 +40,7 @@ bool AnalyseurLogs::chargerDepuisFichier(const std::string& nomFichier,
             if (stream >> timestamp >> idUtilisateur >> std::quoted(nomFilm))
             {
                 // TODO: Uncomment une fois que la fonction creerLigneLog est écrite
-                // creerLigneLog(timestamp, idUtilisateur, nomFilm, gestionnaireUtilisateurs, gestionnaireFilms);
+                creerLigneLog(timestamp, idUtilisateur, nomFilm, gestionnaireUtilisateurs, gestionnaireFilms);
             }
             else
             {
@@ -97,13 +97,13 @@ std::vector<std::pair<const Film*, int>> AnalyseurLogs::getNFilmsPlusPopulaires(
 {
     std::vector<std::pair<const Film*, int>>nFilmsPlusPopulaires(std::min(vuesFilms_.size(), nombre));
     std::partial_sort_copy(vuesFilms_.begin(), vuesFilms_.end(), nFilmsPlusPopulaires.begin(), nFilmsPlusPopulaires.end(),
-        [](std::pair<const Film*, int>& film1, std::pair<const Film*, int>& film2) {return film1.second > film2.second;});
+        [](const std::pair<const Film*, int>& film1, const std::pair<const Film*, int>& film2) {return film1.second > film2.second;});
     return nFilmsPlusPopulaires;
 }
 
 int AnalyseurLogs::getNombreVuesPourUtilisateur(const Utilisateur* utilisateur) const
 {
-    return std::count_if(logs_.begin(), logs_.end(), [&utilisateur](const LigneLog& ligneLog){return ligneLog.utilisateur == utilisateur;});
+    return static_cast<int>(std::count_if(logs_.begin(), logs_.end(), [&utilisateur](const LigneLog& ligneLog){return ligneLog.utilisateur == utilisateur;}));
 }
 
 std::vector<const Film*> AnalyseurLogs::getFilmsVusParUtilisateur(const Utilisateur* utilisateur) const
