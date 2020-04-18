@@ -55,6 +55,13 @@ bool AnalyseurLogs::chargerDepuisFichier(const std::string& nomFichier,
     return false;
 }
 
+/// Cree une ligne log et l'ajoute au vecteur de logs
+/// \param timesamp                     La date a laquelle le filmest regarde
+/// \param idUtilisateur                L'id de l'utilisateur qui regarde le film
+/// \param nomFilm                      Le nom du film regarde
+/// \param gestionnaireUtilisateurs     Reference au gestionnaire des utilisateurs
+/// \param gestionnaireFilms            Reference au gestionnairede films
+/// \return                             true si la ligne a bien ete cree, false sinon 
 bool AnalyseurLogs::creerLigneLog(const std::string& timestamp, const std::string& idUtilisateur, const std::string& nomFilm,
                        GestionnaireUtilisateurs& gestionnaireUtilisateurs, GestionnaireFilms& gestionnaireFilms)
 {
@@ -68,6 +75,8 @@ bool AnalyseurLogs::creerLigneLog(const std::string& timestamp, const std::strin
     return std::binary_search(logs_.begin(), logs_.end(), ligneLog, ComparateurLog());
 }
 
+/// Ajoute une ligne log passe en parametre au vecteur de logs
+/// \param ligneLog     La ligne log a ajouter
 void AnalyseurLogs::ajouterLigneLog(const LigneLog& ligneLog)
 {
     auto position = std::lower_bound(logs_.begin(), logs_.end(), ligneLog, ComparateurLog());
@@ -75,6 +84,8 @@ void AnalyseurLogs::ajouterLigneLog(const LigneLog& ligneLog)
     vuesFilms_[ligneLog.film]++;
 }
 
+/// Retourne le nombre de vues d'un film passe en parametre
+/// \param film     Le film dont on veut le nombre de vues
 int AnalyseurLogs::getNombreVuesFilm(const Film* film) const
 {
     if(vuesFilms_.find(film) == vuesFilms_.end())
@@ -84,6 +95,8 @@ int AnalyseurLogs::getNombreVuesFilm(const Film* film) const
     return vuesFilms_.at(film);
 }
 
+/// Retourne le film le plus populaires du vecteur de vues films.
+/// \return         Un pointeur vers le film le plus populaire ou nullptr si il n'y a aucun film
 const Film* AnalyseurLogs::getFilmPlusPopulaire() const
 {
     if(logs_.size() == 0)
@@ -93,6 +106,9 @@ const Film* AnalyseurLogs::getFilmPlusPopulaire() const
     return std::max_element(vuesFilms_.begin(), vuesFilms_.end(), ComparateurSecondElementPaire<const Film*, int>())->first;
 }
 
+/// Retourne un vecteur contenant les n films les plus populaires
+/// \param nombre      Le nombre de films a retourner
+/// \return            Le vecteur contenant les films les plus populaires
 std::vector<std::pair<const Film*, int>> AnalyseurLogs::getNFilmsPlusPopulaires(std::size_t nombre) const
 {
     std::vector<std::pair<const Film*, int>>nFilmsPlusPopulaires(std::min(vuesFilms_.size(), nombre));
@@ -101,11 +117,17 @@ std::vector<std::pair<const Film*, int>> AnalyseurLogs::getNFilmsPlusPopulaires(
     return nFilmsPlusPopulaires;
 }
 
+/// Retourne le nombre de vues total pour un utilisateur
+/// \param utilisateur      L'utilisateur dont on veut savoirlenombre de vues
+/// \return                 un int contenant le nombre de vues pour l'utilisateur
 int AnalyseurLogs::getNombreVuesPourUtilisateur(const Utilisateur* utilisateur) const
 {
     return static_cast<int>(std::count_if(logs_.begin(), logs_.end(), [&utilisateur](const LigneLog& ligneLog){return ligneLog.utilisateur == utilisateur;}));
 }
 
+/// Retourne un vecteur contenangt les films vus par l'utilisateur passe en parametres
+/// \param utilisateur      L'utilisateur dont on veut avoir les films vus.
+/// \return                 Un vecteur contenant les films vus par l'utilisateur passe en parametres 
 std::vector<const Film*> AnalyseurLogs::getFilmsVusParUtilisateur(const Utilisateur* utilisateur) const
 {
     std::unordered_set<const Film*> filmsVus;

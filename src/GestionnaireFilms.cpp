@@ -107,6 +107,10 @@ bool GestionnaireFilms::chargerDepuisFichier(const std::string& nomFichier)
     return false;
 }
 
+
+/// Ajoute un filmau gestionnaireet met à jour les filtres en conséquence
+/// \param film         Reference vers lefilm a ajouter
+/// \return             true si le film a ete ajoute avec succes false sinon
 bool GestionnaireFilms::ajouterFilm(const Film& film)
 {
     if(getFilmParNom(film.nom) != nullptr)
@@ -119,6 +123,9 @@ bool GestionnaireFilms::ajouterFilm(const Film& film)
     return true; 
 }
 
+/// Supprime un filmdu gestionnaire à partir de son nom.
+/// \param nomFilm      Le nom du film a supprimer
+/// \return             true si lefilm a ete supprime avec succes false sinon 
 bool GestionnaireFilms::supprimerFilm(const std::string& nomFilm)
 {
     std::vector<std::unique_ptr<Film>>::iterator trouve = find_if(films_.begin(), films_.end(), [&nomFilm](std::unique_ptr<Film>& film){return film->nom == nomFilm;});
@@ -137,11 +144,16 @@ bool GestionnaireFilms::supprimerFilm(const std::string& nomFilm)
     return true;
 }
 
+/// Retourne le nombre de filmsprésentement dans le gestionnaire.
+/// \return        Le nombre de films presentement dans le gestionnaire
 std::size_t GestionnaireFilms::getNombreFilms() const
 {
     return films_.size();
 }
 
+/// Trouve et retourne un film en le cherchant à partir de son nom.
+/// \param nom     Le nomdu film a retourner
+/// \retrurn       Un pointeur vers le film
 const Film* GestionnaireFilms::getFilmParNom(const std::string& nom) const
 {
     auto film = filtreNomFilms_.find(nom);
@@ -150,6 +162,9 @@ const Film* GestionnaireFilms::getFilmParNom(const std::string& nom) const
     return film->second;
 }
 
+/// Retourne une copie de la liste des films appartenant à un genre donné.
+/// \param genre        Le genre des films a retourner
+/// \return             Un vecteur contenant tous les films d'un genre donne
 std::vector<const Film*> GestionnaireFilms::getFilmsParGenre(Film::Genre genre) const
 {
     auto it = filtreGenreFilms_.find(genre);
@@ -158,6 +173,9 @@ std::vector<const Film*> GestionnaireFilms::getFilmsParGenre(Film::Genre genre) 
     return filtreGenreFilms_.at(genre);
 }
 
+/// Retourne une copie de la liste des films appartenant à un pays donné.
+/// \param pays     Pays des films a retourner
+/// \return         Un vecteur contenant les films appartenant a un pays donne
 std::vector<const Film*> GestionnaireFilms::getFilmsParPays(Pays pays) const
 {
     auto it = filtrePaysFilms_.find(pays);
@@ -166,6 +184,10 @@ std::vector<const Film*> GestionnaireFilms::getFilmsParPays(Pays pays) const
     return filtrePaysFilms_.at(pays);
 }
 
+/// Retourne  une  liste  des  films  produits  entre  deux  années  passées  en  paramètre
+/// \param anneeDebut   L'annee de debut des films a retourner
+/// \param anneeFin     L'annee de fin des filmsa retourner 
+/// \return             Un vecteur contaenant les films sortis entre les deux anees passees en parametre 
 std::vector<const Film*> GestionnaireFilms::getFilmsEntreAnnees(int anneeDebut, int anneeFin)
 {
     std::vector<const Film*> filmsEntreAnnees;
